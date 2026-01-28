@@ -1,0 +1,10 @@
+BREE~SIERRA~GLIDING
+
+code/modules/mob/living/living.dm
+    /mob/living/proc/handle_pulling_after_move(turf/old_loc)
+
+code/datums/movement/mob.dm
+	/datum/movement_handler/mob/delay/DoMove(direction, mover, is_external)
+	/datum/movement_handler/mob/delay/proc/SetDelay(delay)
+	/datum/movement_handler/mob/delay/proc/AddDelay(delay)
+	/datum/movement_handler/mob/movement/proc/HandleGrabs(direction, old_turf)

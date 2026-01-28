@@ -137,21 +137,48 @@
 /datum/movement_handler/mob/delay
 	VAR_PROTECTED/next_move
 
+// BREE~SIERRA~GLIDING~EDIT
+// BREE~BEFORE
+// /datum/movement_handler/mob/delay/DoMove(direction, mover, is_external)
+// 	if(is_external)
+// 		return
+// 	next_move = world.time + max(1, mob.movement_delay())
+// BREE~AFTER
 /datum/movement_handler/mob/delay/DoMove(direction, mover, is_external)
 	if(is_external)
 		return
-	next_move = world.time + max(1, mob.movement_delay())
+
+	delay = max(1, mob.movement_delay())
+	if((direction & (direction - 1))) // moved diagonally
+		delay *= sqrt(2)
+
+	next_move = world.time + delay
+	UpdateGlideSize()
+// BREE~SIERRA~GLIDING~EDITEND
 
 /datum/movement_handler/mob/delay/MayMove(mover, is_external)
 	if(IS_NOT_SELF(mover) && is_external)
 		return MOVEMENT_PROCEED
 	return ((mover && mover != mob) ||  world.time >= next_move) ? MOVEMENT_PROCEED : MOVEMENT_STOP
 
+// BREE~SIERRA~GLIDING~EDIT
+// BREE~BEFORE
+// /datum/movement_handler/mob/delay/proc/SetDelay(delay)
+// 	next_move = max(next_move, world.time + delay)
+
+// /datum/movement_handler/mob/delay/proc/AddDelay(delay)
+// 	next_move += max(0, delay)
+// BREE~AFTER
 /datum/movement_handler/mob/delay/proc/SetDelay(delay)
+	src.delay = delay
 	next_move = max(next_move, world.time + delay)
+	UpdateGlideSize()
 
 /datum/movement_handler/mob/delay/proc/AddDelay(delay)
+	src.delay += delay
 	next_move += max(0, delay)
+	UpdateGlideSize()
+// BREE~SIERRA~GLIDING~EDITEND
 
 // Stop effect
 /datum/movement_handler/mob/stop_effect/DoMove()
@@ -302,7 +329,12 @@
 					if (get_dist(old_turf, M) <= 1)
 						if (isturf(M.loc) && isturf(mob.loc))
 							if (mob.loc != old_turf && M.loc != mob.loc)
-								step(M, get_dir(M.loc, old_turf))
+								// BREE~SIERRA~GLIDING~EDIT
+								// BREE~BEFORE
+								// step(M, get_dir(M.loc, old_turf))
+								// BREE~AFTER
+								step_glide(M, get_dir(M.loc, old_turf), host.glide_size)
+								// BREE~SIERRA~GLIDING~EDITEND
 			else
 				for(var/mob/M in L)
 					M.other_mobs = 1

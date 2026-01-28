@@ -562,7 +562,12 @@ default behaviour is:
 		return
 
 	if (!isliving(pulling))
-		step(pulling, get_dir(pulling.loc, old_loc))
+		// BREE~SIERRA~GLIDING~EDIT
+		// BREE~BEFORE
+		// step(pulling, get_dir(pulling.loc, old_loc))
+		// BREE~AFTER
+		step_glide(pulling, get_dir(pulling.loc, old_loc), glide_size)
+		// BREE~SIERRA~GLIDING~EDITEND
 	else
 		var/mob/living/M = pulling
 		if(length(M.grabbed_by))
@@ -579,7 +584,12 @@ default behaviour is:
 
 			var/atom/movable/t = M.pulling
 			M.stop_pulling()
-			step(M, get_dir(pulling.loc, old_loc))
+			// BREE~SIERRA~GLIDING~EDIT
+			// BREE~BEFORE
+			// step(M, get_dir(pulling.loc, old_loc))
+			// BREE~AFTER
+			step_glide(pulling, get_dir(pulling.loc, old_loc), glide_size)
+			// BREE~SIERRA~GLIDING~EDITEND
 			if(t)
 				M.start_pulling(t)
 
