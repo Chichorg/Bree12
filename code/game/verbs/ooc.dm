@@ -1,10 +1,20 @@
-/client/verb/ooc(message as text)
+// BREE~SIERRA~SSINPUT~EDIT
+// BREE~BEFORE
+// /client/verb/ooc(message as text)
+// BREE~AFTER
+/client/verb/ooc(message = "" as text)
+// BREE~SIERRA~SSINPUT~EDITEND
 	set name = "OOC"
 	set category = "OOC"
 
 	sanitize_and_communicate(/singleton/communication_channel/ooc, src, message)
 
-/client/verb/looc(message as text)
+// BREE~SIERRA~SSINPUT~EDIT
+// BREE~BEFORE
+// /client/verb/looc(message as text)
+// BREE~AFTER
+/client/verb/looc(message = "" as text)
+// BREE~SIERRA~SSINPUT~EDITEND
 	set name = "LOOC"
 	set desc = "Local OOC, seen only by those in view. Remember: Just because you see someone that doesn't mean they see you."
 	set category = "OOC"

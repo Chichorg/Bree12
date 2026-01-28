@@ -251,8 +251,20 @@
 		return
 
 	// Something with pulling things
-	var/extra_delay = HandleGrabs(direction, old_turf)
+	// BREE~SIERRA~SSINPUT~EDIT
+	// BREE~BEFORE
+	// var/extra_delay = HandleGrabs(direction, old_turf)
+	// mob.ExtraMoveCooldown(extra_delay)
+	// BREE~AFTER
+	var/extra_delay = 0
+	for (var/obj/item/grab/G in mob)
+		if(G.assailant == G.affecting)
+			continue
+		extra_delay = max(extra_delay, G.grab_slowdown())
+
 	mob.ExtraMoveCooldown(extra_delay)
+	HandleGrabs(direction, old_turf)
+	// BREE~SIERRA~SSINPUT~EDITEND
 
 	for (var/obj/item/grab/G in mob)
 		if (G.assailant_reverse_facing())

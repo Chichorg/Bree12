@@ -5,7 +5,9 @@
 
 	show_laws(0)
 
-	winset(src, null, "mainwindow.macro=borgmacro hotkey_toggle.is-checked=false input.focus=true input.background-color=#d3b5b5")
+	// BREE~SIERRA~SSINPUT~REMOVE
+	// winset(src, null, "mainwindow.macro=borgmacro hotkey_toggle.is-checked=false input.focus=true input.background-color=#d3b5b5")
+	// BREE~SIERRA~SSINPUT~REMOVEEND
 
 	// Forces synths to select an icon relevant to their module
 	if(!icon_selected)

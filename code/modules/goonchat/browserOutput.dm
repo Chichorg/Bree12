@@ -92,9 +92,21 @@ For the main html chat area
 		if ("analyzeClientData")
 			data = analyzeClientData(arglist(params))
 		if ("swaptodarkmode")
-			swaptodarkmode()
+			// BREE~SIERRA~SSINPUT~EDIT
+			// BREE~BEFORE
+			// swaptodarkmode()
+			// BREE~AFTER
+			owner.prefs.dark_theme = TRUE
+			owner.update_client_theme()
+			// BREE~SIERRA~SSINPUT~EDITEND
 		if ("swaptolightmode")
-			swaptolightmode()
+			// BREE~SIERRA~SSINPUT~EDIT
+			// BREE~BEFORE
+			// swaptolightmode()
+			// BREE~AFTER
+			owner.prefs.dark_theme = FALSE
+			owner.update_client_theme()
+			// BREE~SIERRA~SSINPUT~EDITEND
 		if ("reload")
 			loaded = FALSE
 			start()

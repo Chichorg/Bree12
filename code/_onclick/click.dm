@@ -262,7 +262,12 @@
 /mob/proc/MiddleClickOn(atom/A)
 	if (A.MiddleClick(src))
 		return TRUE
-	swap_hand()
+	// BREE~SIERRA~SSINPUT~EDIT
+	// BREE~BEFORE
+	// swap_hand()
+	// BREE~AFTER
+	pointed(A)
+	// BREE~SIERRA~SSINPUT~EDITEND
 	return TRUE
 
 /atom/proc/MiddleClick(mob/M as mob)

@@ -3,6 +3,10 @@
 // SS_BACKGROUND handles high server load differently than Normal and SS_TICKER do.
 // Higher priority also means a larger share of a given tick before sleep checks.
 
+// BREE~SIERRA~SSINPUT~ADD
+#define SS_PRIORITY_INPUT          1000 // Input MUST ALWAYS BE HIGHEST PRIORITY!!!
+// BREE~SIERRA~SSINPUT~ADDEND
+
 #define SS_PRIORITY_DEFAULT 50          // Default priority for all processes levels
 
 // SS_TICKER

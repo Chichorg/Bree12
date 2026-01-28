@@ -196,18 +196,20 @@
 		holder.callproc.waiting_for_click = 0
 		holder.callproc.do_args()
 
-/client/Click(atom/A)
-	if(!user_acted(src))
-		return
-	if(holder && holder.callproc && holder.callproc.waiting_for_click)
-		if(alert("Do you want to select \the [A] as the [length(holder.callproc.arguments)+1]\th argument?",, "Yes", "No") == "Yes")
-			holder.callproc.arguments += A
+// BREE~SIERRA~SSINPUT~REMOVE
+// /client/Click(atom/A)
+// 	if(!user_acted(src))
+// 		return
+// 	if(holder && holder.callproc && holder.callproc.waiting_for_click)
+// 		if(alert("Do you want to select \the [A] as the [length(holder.callproc.arguments)+1]\th argument?",, "Yes", "No") == "Yes")
+// 			holder.callproc.arguments += A
 
-		holder.callproc.waiting_for_click = 0
-		verbs -= /client/proc/cancel_callproc_select
-		holder.callproc.do_args()
-	else
-		return ..()
+// 		holder.callproc.waiting_for_click = 0
+// 		verbs -= /client/proc/cancel_callproc_select
+// 		holder.callproc.do_args()
+// 	else
+// 		return ..()
+// BREE~SIERRA~SSINPUT~REMOVEEND
 
 /datum/callproc/proc/finalise()
 	var/returnval

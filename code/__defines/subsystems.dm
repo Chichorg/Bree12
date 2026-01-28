@@ -29,6 +29,9 @@
 #define SS_INIT_JOBS             8
 #define SS_INIT_AMBIENT_LIGHT    8
 #define SS_INIT_CHAR_SETUP       7
+// BREE~SIERRA~SSINPUT~ADD
+#define SS_INIT_INPUT            6
+// BREE~SIERRA~SSINPUT~ADDEND
 #define SS_INIT_CIRCUIT          6
 #define SS_INIT_GRAPH            5
 #define SS_INIT_OPEN_SPACE       4

@@ -6,7 +6,12 @@ var/global/list/image/ghost_sightless_images = list() //this is a list of images
 	desc = "It's a g-g-g-g-ghooooost!" //jinkies!
 	icon = 'icons/mob/mob.dmi'
 	icon_state = "ghost"
-	appearance_flags = DEFAULT_APPEARANCE_FLAGS | KEEP_TOGETHER
+	// BREE~SIERRA~SSINPUT~EDIT
+	// BREE~BEFORE
+	// appearance_flags = DEFAULT_APPEARANCE_FLAGS | KEEP_TOGETHER
+	// BREE~AFTER
+	appearance_flags = DEFAULT_APPEARANCE_FLAGS | KEEP_TOGETHER | LONG_GLIDE
+	// BREE~SIERRA~SSINPUT~EDITEND
 	blinded = 0
 	anchored = TRUE	//  don't get pushed around
 	universal_speak = TRUE

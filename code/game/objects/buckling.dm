@@ -376,6 +376,9 @@
 	if (!buckled_mob)
 		return
 	if (loc)
+		// BREE~SIERRA~SSINPUT~ADD
+		buckled_mob.set_glide_size(glide_size)
+		// BREE~SIERRA~SSINPUT~ADDEND
 		buckled_mob.forceMove(loc)
 	else
 		unbuckle_mob()
@@ -386,6 +389,9 @@
 	if (!buckled_mob)
 		return
 	if (loc)
+		// BREE~SIERRA~SSINPUT~ADD
+		buckled_mob.set_glide_size(glide_size)
+		// BREE~SIERRA~SSINPUT~ADDEND
 		buckled_mob.forceMove(loc)
 	else
 		unbuckle_mob()
