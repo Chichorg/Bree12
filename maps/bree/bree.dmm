@@ -5,9 +5,20 @@
 	},
 /turf/simulated/floor/land,
 /area/bree)
+"jS" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/wood/yew,
+/area/bree)
+"pN" = (
+/turf/simulated/wall/wood,
+/area/bree)
 "rt" = (
 /obj/landmark/start,
 /turf/simulated/floor/land,
+/area/bree)
+"ty" = (
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/simulated/floor/wood/yew,
 /area/bree)
 "ER" = (
 /turf/simulated/floor/land,
@@ -15,6 +26,21 @@
 "OC" = (
 /obj/landmark/map_data,
 /turf/simulated/floor/land,
+/area/bree)
+"OQ" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/wood/yew,
+/area/bree)
+"So" = (
+/obj/item/stool/wood,
+/turf/simulated/floor/wood/yew,
+/area/bree)
+"Vc" = (
+/obj/item/storage/box/glasses/mug,
+/turf/simulated/floor/wood/yew,
+/area/bree)
+"YY" = (
+/turf/simulated/floor/wood/yew,
 /area/bree)
 
 (1,1,1) = {"
@@ -412,13 +438,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+pN
+pN
+pN
+pN
+pN
+pN
 ER
 ER
 ER
@@ -464,13 +490,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+YY
+YY
+YY
+YY
+pN
 ER
 ER
 ER
@@ -516,13 +542,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+YY
+YY
+YY
+YY
+pN
 ER
 ER
 ER
@@ -568,13 +594,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+YY
+YY
+YY
+YY
+jS
 ER
 ER
 ER
@@ -620,13 +646,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+So
+So
+So
+YY
+pN
 ER
 ER
 ER
@@ -672,13 +698,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+OQ
+OQ
+OQ
+YY
+pN
 ER
 ER
 ER
@@ -724,13 +750,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+YY
+YY
+YY
+YY
+pN
 ER
 ER
 ER
@@ -776,13 +802,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+YY
+Vc
+ty
+YY
+YY
+pN
 ER
 ER
 ER
@@ -828,13 +854,13 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+pN
+pN
+pN
+pN
+pN
+pN
+pN
 ER
 ER
 ER

@@ -2,9 +2,10 @@
 
 	#include "../../bree/code/include.dm"
 
-	#include "bree_define.dm"
-
 	#include "bree_areas.dm"
+	#include "bree_jobs.dm"
+
+	#include "bree_define.dm"
 
 	#include "bree.dmm"
 

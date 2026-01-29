@@ -352,18 +352,23 @@
 	dat += "<tr><td align = 'center' colspan = 3><b>[GLOB.using_map.station_name]:</b></td></tr>"
 
 	var/list/categorizedJobs = list(
-		"Command" =         list(jobs = list(), dep = COM, color = "#aac1ee"),
-		"Command Support" = list(jobs = list(), dep = SPT, color = "#aac1ee"),
-		"Engineering" =     list(jobs = list(), dep = ENG, color = "#ffd699"),
-		"Security" =        list(jobs = list(), dep = SEC, color = "#ff9999"),
-		"Miscellaneous" =   list(jobs = list(), dep = CIV, color = "#ffffff", colBreak = 1),
-		"Synthetics" =      list(jobs = list(), dep = MSC, color = "#ccffcc"),
-		"Service" =         list(jobs = list(), dep = SRV, color = "#cccccc"),
-		"Medical" =         list(jobs = list(), dep = MED, color = "#99ffe6"),
-		"Research" =        list(jobs = list(), dep = SCI, color = "#e6b3e6", colBreak = 1),
-		"Supply" =          list(jobs = list(), dep = SUP, color = "#ead4ae"),
-		"Exploration" =     list(jobs = list(), dep = EXP, color = "#ffd699"),
-		"ERROR" =           list(jobs = list(), color = "#ffffff", colBreak = 1)
+		// BREE~JOBS~AND~JOIN~EDIT
+		// BREE~BEFORE
+		// "Command" =         list(jobs = list(), dep = COM, color = "#aac1ee"),
+		// "Command Support" = list(jobs = list(), dep = SPT, color = "#aac1ee"),
+		// "Engineering" =     list(jobs = list(), dep = ENG, color = "#ffd699"),
+		// "Security" =        list(jobs = list(), dep = SEC, color = "#ff9999"),
+		// "Miscellaneous" =   list(jobs = list(), dep = CIV, color = "#ffffff", colBreak = 1),
+		// "Synthetics" =      list(jobs = list(), dep = MSC, color = "#ccffcc"),
+		// "Service" =         list(jobs = list(), dep = SRV, color = "#cccccc"),
+		// "Medical" =         list(jobs = list(), dep = MED, color = "#99ffe6"),
+		// "Research" =        list(jobs = list(), dep = SCI, color = "#e6b3e6", colBreak = 1),
+		// "Supply" =          list(jobs = list(), dep = SUP, color = "#ead4ae"),
+		// "Exploration" =     list(jobs = list(), dep = EXP, color = "#ffd699"),
+		// "ERROR" =           list(jobs = list(), color = "#ffffff", colBreak = 1)
+		// BREE~AFTER
+		"Bree" =         list(jobs = list(), dep = BRE, color = "#eed0aa")
+		// BREE~JOBS~AND~JOIN~EDITEND
 	)
 	// TORCH JOBS
 	var/list/job_summaries

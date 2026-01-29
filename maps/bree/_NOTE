@@ -1,0 +1,7 @@
+BREE~JOBS~AND~JOIN
+
+code/modules/mob/new_player/new_player.dm
+    /mob/new_player/proc/LateChoices()
+
+code/controllers/subsystems/jobs.dm
+    global/const/BRE

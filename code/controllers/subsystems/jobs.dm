@@ -10,6 +10,9 @@ var/global/const/SUP = FLAG_09
 var/global/const/SPT = FLAG_10
 var/global/const/EXP = FLAG_11
 var/global/const/ROB = FLAG_12
+// BREE~JOBS~AND~JOIN~ADD
+var/global/const/BRE = FLAG_13
+// BREE~JOBS~AND~JOIN~ADDEND
 
 GLOBAL_VAR(antag_code_phrase)
 GLOBAL_VAR(antag_code_response)
@@ -37,7 +40,7 @@ SUBSYSTEM_DEF(jobs)
 
 	// Create main map jobs.
 	primary_job_datums.Cut()
-	for(var/jobtype in (list(DEFAULT_JOB_TYPE) | GLOB.using_map.allowed_jobs))
+	for(var/jobtype in GLOB.using_map.allowed_jobs)
 		var/datum/job/job = get_by_path(jobtype)
 		if(!job)
 			job = new jobtype
