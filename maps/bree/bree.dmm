@@ -1,4 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ce" = (
+/obj/structure/door/yew,
+/turf/simulated/floor/land,
+/area/bree)
 "eZ" = (
 /obj/landmark{
 	name = "JoinLate"
@@ -14,6 +18,12 @@
 /area/bree)
 "rt" = (
 /obj/landmark/start,
+/turf/simulated/floor/land,
+/area/bree)
+"rU" = (
+/obj/structure/door/yew{
+	dir = 4
+	},
 /turf/simulated/floor/land,
 /area/bree)
 "ty" = (
@@ -812,7 +822,7 @@ pN
 ER
 ER
 ER
-ER
+pN
 ER
 ER
 ER
@@ -864,7 +874,7 @@ pN
 ER
 ER
 ER
-ER
+ce
 ER
 ER
 ER
@@ -916,7 +926,7 @@ ER
 ER
 ER
 ER
-ER
+pN
 ER
 ER
 ER
@@ -1022,9 +1032,9 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
+pN
+rU
+pN
 ER
 ER
 ER
