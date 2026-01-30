@@ -104,3 +104,6 @@
 /datum/map/bree/build_away_sites()
 	SSticker.start_ASAP = TRUE
 	return
+
+/datum/map/bree/map_info(client/victim)
+	return

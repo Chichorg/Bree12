@@ -205,11 +205,13 @@
 
 	send_resources()
 
-	if (GLOB.changelog_hash && prefs.lastchangelog != GLOB.changelog_hash) //bolds the changelog button on the interface so we know there are updates.
-		to_chat(src, SPAN_INFO("You have unread updates in the changelog."))
-		winset(src, "rpane.changelog", "background-color=#eaeaea;font-style=bold")
-		if(config.aggressive_changelog)
-			src.changes()
+	// BREE~MOTD~REMOVE
+	// if (GLOB.changelog_hash && prefs.lastchangelog != GLOB.changelog_hash) //bolds the changelog button on the interface so we know there are updates.
+	// 	to_chat(src, SPAN_INFO("You have unread updates in the changelog."))
+	// 	winset(src, "rpane.changelog", "background-color=#eaeaea;font-style=bold")
+	// 	if(config.aggressive_changelog)
+	// 		src.changes()
+	// BREE~MOTD~REMOVEEND
 
 	if(!winexists(src, "asset_cache_browser")) // The client is using a custom skin, tell them.
 		to_chat(src, SPAN_WARNING("Unable to access asset cache browser, if you are using a custom skin file, please allow DS to download the updated version, if you are not, then make a bug report. This is not a critical issue but can cause issues with resource downloading, as it is impossible to know when extra resources arrived to you."))

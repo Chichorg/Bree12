@@ -5,3 +5,12 @@ code/modules/mob/new_player/new_player.dm
 
 code/controllers/subsystems/jobs.dm
     global/const/BRE
+
+
+BREE~MOTD
+
+code/modules/mob/new_player/login.dm
+    /mob/new_player/proc/deferred_login()
+
+code/modules/client/client_procs.dm
+    /client/New(TopicData)

@@ -36,9 +36,11 @@
 		if(client.get_preference_value(/datum/client_preference/goonchat) == GLOB.PREF_YES)
 			client.chatOutput.start()
 
-	var/singleton/security_state/security_state = GET_SINGLETON(GLOB.using_map.security_state)
-	var/singleton/security_level/SL = security_state.current_security_level
-	var/alert_desc = ""
-	if(SL.up_description)
-		alert_desc = SL.up_description
-	to_chat(src, SPAN_NOTICE("The alert level on the [station_name()] is currently: [SPAN_COLOR(SL.light_color_alarm, "<B>[SL.name]</B>")]. [alert_desc]"))
+	// BREE~MOTD~REMOVE
+	// var/singleton/security_state/security_state = GET_SINGLETON(GLOB.using_map.security_state)
+	// var/singleton/security_level/SL = security_state.current_security_level
+	// var/alert_desc = ""
+	// if(SL.up_description)
+	// 	alert_desc = SL.up_description
+	// to_chat(src, SPAN_NOTICE("The alert level on the [station_name()] is currently: [SPAN_COLOR(SL.light_color_alarm, "<B>[SL.name]</B>")]. [alert_desc]"))
+	// BREE~MOTD~REMOVEEND

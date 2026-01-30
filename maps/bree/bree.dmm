@@ -1,4 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aN" = (
+/obj/item/reagent_containers/cooking_container/skillet,
+/obj/structure/table/woodentable,
+/turf/simulated/floor/land,
+/area/bree)
+"bS" = (
+/obj/item/reagent_containers/cooking_container/tray,
+/obj/structure/table/woodentable,
+/turf/simulated/floor/land,
+/area/bree)
 "ce" = (
 /obj/structure/door/yew,
 /turf/simulated/floor/land,
@@ -9,12 +19,40 @@
 	},
 /turf/simulated/floor/land,
 /area/bree)
+"fN" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/cooking_container/grill_grate,
+/turf/simulated/floor/land,
+/area/bree)
+"gx" = (
+/obj/item/reagent_containers/cooking_container/pot,
+/obj/structure/table/woodentable,
+/turf/simulated/floor/land,
+/area/bree)
+"gX" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/cooking_container/board,
+/obj/item/material/knife/kitchen,
+/obj/item/material/knife/kitchen/cleaver,
+/turf/simulated/floor/land,
+/area/bree)
 "jS" = (
-/obj/machinery/door/unpowered/simple/wood,
+/obj/structure/door/yew,
 /turf/simulated/floor/wood/yew,
+/area/bree)
+"ne" = (
+/obj/structure/table/woodentable,
+/obj/machinery/reagentgrinder/juicer{
+	pixel_y = 11
+	},
+/turf/simulated/floor/land,
 /area/bree)
 "pN" = (
 /turf/simulated/wall/wood,
+/area/bree)
+"qQ" = (
+/obj/machinery/appliance/cooker/grill,
+/turf/simulated/floor/land,
 /area/bree)
 "rt" = (
 /obj/landmark/start,
@@ -26,11 +64,39 @@
 	},
 /turf/simulated/floor/land,
 /area/bree)
+"sM" = (
+/obj/machinery/appliance/cooker/stove,
+/turf/simulated/floor/land,
+/area/bree)
 "ty" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/simulated/floor/wood/yew,
 /area/bree)
+"wt" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/cooking_container/board/bowl,
+/obj/item/reagent_containers/glass/beaker/bowl,
+/turf/simulated/floor/land,
+/area/bree)
+"xa" = (
+/obj/structure/kitchenspike,
+/turf/simulated/floor/land,
+/area/bree)
+"Cd" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/cooking_container/oven,
+/turf/simulated/floor/land,
+/area/bree)
+"Ec" = (
+/obj/machinery/appliance/cooker/oven,
+/turf/simulated/floor/land,
+/area/bree)
 "ER" = (
+/turf/simulated/floor/land,
+/area/bree)
+"Lt" = (
+/obj/item/reagent_containers/cooking_container/saucepan,
+/obj/structure/table/woodentable,
 /turf/simulated/floor/land,
 /area/bree)
 "OC" = (
@@ -48,6 +114,10 @@
 "Vc" = (
 /obj/item/storage/box/glasses/mug,
 /turf/simulated/floor/wood/yew,
+/area/bree)
+"WC" = (
+/obj/structure/bed/despawn_bed,
+/turf/simulated/floor/land,
 /area/bree)
 "YY" = (
 /turf/simulated/floor/wood/yew,
@@ -775,9 +845,9 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
+WC
+WC
+WC
 ER
 ER
 "}
@@ -822,7 +892,7 @@ pN
 ER
 ER
 ER
-pN
+ER
 ER
 ER
 ER
@@ -874,7 +944,7 @@ pN
 ER
 ER
 ER
-ce
+ER
 ER
 ER
 ER
@@ -926,7 +996,7 @@ ER
 ER
 ER
 ER
-pN
+ER
 ER
 ER
 ER
@@ -1026,19 +1096,19 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-pN
-rU
 pN
 ER
 ER
 ER
 ER
+ER
+ER
+ER
+ER
+qQ
+ER
+gX
+gx
 ER
 "}
 (20,1,1) = {"
@@ -1078,6 +1148,7 @@ ER
 ER
 ER
 ER
+ce
 ER
 ER
 ER
@@ -1086,11 +1157,10 @@ ER
 ER
 ER
 ER
+Ec
 ER
-ER
-ER
-ER
-ER
+wt
+Lt
 ER
 "}
 (21,1,1) = {"
@@ -1130,6 +1200,7 @@ ER
 ER
 ER
 ER
+pN
 ER
 ER
 ER
@@ -1138,11 +1209,10 @@ ER
 ER
 ER
 ER
+sM
 ER
-ER
-ER
-ER
-ER
+fN
+aN
 ER
 "}
 (22,1,1) = {"
@@ -1182,19 +1252,19 @@ ER
 ER
 ER
 ER
+pN
+pN
+rU
+pN
 ER
 ER
 ER
 ER
 ER
+ne
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
+Cd
+bS
 ER
 "}
 (23,1,1) = {"
@@ -1297,7 +1367,7 @@ ER
 ER
 ER
 ER
-ER
+xa
 ER
 ER
 "}
