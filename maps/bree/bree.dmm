@@ -4,14 +4,29 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/land,
 /area/bree)
+"bi" = (
+/turf/simulated/wall/medieval/wood/pine,
+/area/bree)
 "bS" = (
 /obj/item/reagent_containers/cooking_container/tray,
 /obj/structure/table/woodentable,
 /turf/simulated/floor/land,
 /area/bree)
 "ce" = (
-/obj/structure/door/yew,
+/obj/structure/door/birch,
 /turf/simulated/floor/land,
+/area/bree)
+"cR" = (
+/obj/structure/door/beech,
+/turf/simulated/floor/land,
+/area/bree)
+"eO" = (
+/obj/item/stack/material/wood/walnut/twentyfive,
+/obj/item/stack/material/wood/walnut/twentyfive,
+/turf/simulated/floor/land,
+/area/bree)
+"eY" = (
+/turf/simulated/wall/medieval/wood/oak,
 /area/bree)
 "eZ" = (
 /obj/landmark{
@@ -37,8 +52,8 @@
 /turf/simulated/floor/land,
 /area/bree)
 "jS" = (
-/obj/structure/door/yew,
-/turf/simulated/floor/wood/yew,
+/obj/structure/door/pine,
+/turf/simulated/floor/land,
 /area/bree)
 "ne" = (
 /obj/structure/table/woodentable,
@@ -47,21 +62,27 @@
 	},
 /turf/simulated/floor/land,
 /area/bree)
+"nq" = (
+/obj/machinery/floodlight,
+/turf/simulated/floor/wood/yew,
+/area/bree)
 "pN" = (
-/turf/simulated/wall/wood,
+/obj/structure/door/maple,
+/turf/simulated/floor/land,
 /area/bree)
 "qQ" = (
 /obj/machinery/appliance/cooker/grill,
 /turf/simulated/floor/land,
+/area/bree)
+"rp" = (
+/turf/simulated/wall/medieval/wood/beech,
 /area/bree)
 "rt" = (
 /obj/landmark/start,
 /turf/simulated/floor/land,
 /area/bree)
 "rU" = (
-/obj/structure/door/yew{
-	dir = 4
-	},
+/obj/structure/door/spruce,
 /turf/simulated/floor/land,
 /area/bree)
 "sM" = (
@@ -76,6 +97,10 @@
 /obj/structure/table/woodentable,
 /obj/item/reagent_containers/cooking_container/board/bowl,
 /obj/item/reagent_containers/glass/beaker/bowl,
+/turf/simulated/floor/land,
+/area/bree)
+"wD" = (
+/obj/structure/door/oak,
 /turf/simulated/floor/land,
 /area/bree)
 "xa" = (
@@ -94,6 +119,10 @@
 "ER" = (
 /turf/simulated/floor/land,
 /area/bree)
+"II" = (
+/obj/item/pickaxe,
+/turf/simulated/floor/land,
+/area/bree)
 "Lt" = (
 /obj/item/reagent_containers/cooking_container/saucepan,
 /obj/structure/table/woodentable,
@@ -107,9 +136,26 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood/yew,
 /area/bree)
+"Qa" = (
+/obj/structure/foundation,
+/turf/simulated/floor/land,
+/area/bree)
+"Qh" = (
+/turf/simulated/wall/medieval/wood/spruce,
+/area/bree)
+"Sa" = (
+/obj/structure/door/oak,
+/turf/simulated/floor/wood/yew,
+/area/bree)
 "So" = (
 /obj/item/stool/wood,
 /turf/simulated/floor/wood/yew,
+/area/bree)
+"TI" = (
+/turf/simulated/wall/medieval/wood/maple,
+/area/bree)
+"Uc" = (
+/turf/simulated/wall/medieval/wood/ash,
 /area/bree)
 "Vc" = (
 /obj/item/storage/box/glasses/mug,
@@ -117,6 +163,13 @@
 /area/bree)
 "WC" = (
 /obj/structure/bed/despawn_bed,
+/turf/simulated/floor/land,
+/area/bree)
+"Xf" = (
+/turf/simulated/wall/medieval/wood/birch,
+/area/bree)
+"Yx" = (
+/obj/structure/door/ash,
 /turf/simulated/floor/land,
 /area/bree)
 "YY" = (
@@ -425,9 +478,9 @@ ER
 ER
 ER
 ER
-eZ
 ER
-rt
+ER
+ER
 ER
 ER
 ER
@@ -477,9 +530,9 @@ ER
 ER
 ER
 ER
-eZ
 ER
-rt
+ER
+ER
 ER
 ER
 ER
@@ -509,29 +562,29 @@ ER
 ER
 ER
 ER
+eY
+eY
+ER
+eY
+eY
 ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-pN
-pN
-pN
-pN
-pN
-pN
-pN
-ER
+eY
+eY
+eY
+eY
+eY
+eY
+eY
 ER
 ER
 ER
 eZ
 ER
 rt
+ER
 ER
 ER
 ER
@@ -556,34 +609,34 @@ ER
 ER
 ER
 ER
+eY
+eY
+eY
+ER
+ER
+eY
+ER
+ER
+ER
+eY
 ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-pN
+eY
 YY
 YY
 YY
 YY
 YY
-pN
-ER
+eY
 ER
 ER
 ER
 eZ
 ER
 rt
+ER
 ER
 ER
 ER
@@ -608,6 +661,9 @@ ER
 ER
 ER
 ER
+eY
+eY
+eY
 ER
 ER
 ER
@@ -619,23 +675,20 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-pN
+eY
 YY
 YY
 YY
 YY
 YY
-pN
-ER
+eY
 ER
 ER
 ER
 eZ
 ER
 rt
+ER
 ER
 ER
 ER
@@ -660,27 +713,27 @@ ER
 ER
 ER
 ER
+eY
+eY
+eY
+ER
+ER
+eY
+ER
+ER
+ER
+eY
 ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-ER
-pN
+eY
 YY
 YY
+nq
 YY
 YY
-YY
-jS
+Sa
 ER
 ER
 ER
@@ -717,27 +770,27 @@ ER
 ER
 ER
 ER
+eY
+eY
+ER
+eY
+eY
 ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
-ER
-pN
+eY
 YY
 So
 So
 So
 YY
-pN
+eY
 ER
 ER
 ER
 ER
-ER
+II
 ER
 ER
 ER
@@ -778,13 +831,13 @@ ER
 ER
 ER
 ER
-pN
+eY
 YY
 OQ
 OQ
 OQ
 YY
-pN
+eY
 ER
 ER
 ER
@@ -823,25 +876,25 @@ ER
 ER
 ER
 ER
+eY
 ER
 ER
 ER
 ER
 ER
 ER
-ER
-pN
+eY
 YY
 YY
 YY
 YY
 YY
-pN
+eY
 ER
 ER
 ER
 ER
-ER
+eO
 ER
 ER
 ER
@@ -875,26 +928,26 @@ ER
 ER
 ER
 ER
+eY
 ER
 ER
 ER
 ER
 ER
 ER
-ER
-pN
+eY
 YY
 Vc
 ty
 YY
 YY
-pN
+eY
 ER
 ER
 ER
-ER
-ER
-ER
+Qa
+Qa
+Qa
 ER
 ER
 ER
@@ -925,28 +978,28 @@ ER
 ER
 ER
 ER
+eY
+eY
+eY
+eY
+eY
 ER
 ER
 ER
 ER
+eY
+eY
+eY
+eY
+eY
+eY
+eY
 ER
 ER
 ER
-ER
-ER
-pN
-pN
-pN
-pN
-pN
-pN
-pN
-ER
-ER
-ER
-ER
-ER
-ER
+Qa
+Qa
+Qa
 ER
 ER
 ER
@@ -979,6 +1032,7 @@ ER
 ER
 ER
 ER
+eY
 ER
 ER
 ER
@@ -995,10 +1049,9 @@ ER
 ER
 ER
 ER
-ER
-ER
-ER
-ER
+Qa
+Qa
+Qa
 ER
 ER
 ER
@@ -1031,7 +1084,7 @@ ER
 ER
 ER
 ER
-ER
+eY
 ER
 ER
 ER
@@ -1096,7 +1149,7 @@ ER
 ER
 ER
 ER
-pN
+ER
 ER
 ER
 ER
@@ -1148,7 +1201,7 @@ ER
 ER
 ER
 ER
-ce
+ER
 ER
 ER
 ER
@@ -1200,7 +1253,7 @@ ER
 ER
 ER
 ER
-pN
+ER
 ER
 ER
 ER
@@ -1252,10 +1305,10 @@ ER
 ER
 ER
 ER
-pN
-pN
-rU
-pN
+ER
+ER
+ER
+ER
 ER
 ER
 ER
@@ -1296,13 +1349,13 @@ ER
 ER
 ER
 ER
+Uc
 ER
+Xf
 ER
+eY
 ER
-ER
-ER
-ER
-ER
+Qh
 ER
 ER
 ER
@@ -1348,13 +1401,13 @@ ER
 ER
 ER
 ER
+Yx
 ER
+ce
 ER
+wD
 ER
-ER
-ER
-ER
-ER
+rU
 ER
 ER
 ER
@@ -1400,13 +1453,13 @@ ER
 ER
 ER
 ER
+Uc
 ER
+Xf
 ER
+eY
 ER
-ER
-ER
-ER
-ER
+Qh
 ER
 ER
 ER
@@ -1504,11 +1557,11 @@ ER
 ER
 ER
 ER
+rp
 ER
+TI
 ER
-ER
-ER
-ER
+bi
 ER
 ER
 ER
@@ -1556,11 +1609,11 @@ ER
 ER
 ER
 ER
+cR
 ER
+pN
 ER
-ER
-ER
-ER
+jS
 ER
 ER
 ER
@@ -1608,11 +1661,11 @@ ER
 ER
 ER
 ER
+rp
 ER
+TI
 ER
-ER
-ER
-ER
+bi
 ER
 ER
 ER

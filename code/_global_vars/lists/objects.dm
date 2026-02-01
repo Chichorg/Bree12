@@ -25,9 +25,6 @@ GLOBAL_LIST_EMPTY(meteor_list)
 GLOBAL_LIST_EMPTY(shield_generators) // All shield generators
 
 GLOBAL_LIST_AS(wall_blend_objects, list(
-	// BREE~DOOR~ADD
-	/obj/structure/door,
-	// BREE~DOOR~ADDEND
 	/obj/machinery/door,
 	/obj/structure/wall_frame,
 	/obj/structure/grille,

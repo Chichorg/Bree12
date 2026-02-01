@@ -127,6 +127,8 @@
 		return
 	fail_smash(user)
 
+// BREE~bree\code\turf\wall\wall.dm
+/*
 /turf/simulated/wall/use_tool(obj/item/W, mob/living/user, list/click_params)
 	var/area/A = get_area(src)
 	if (!A.can_modify_area())
@@ -408,3 +410,4 @@
 		return TRUE
 
 	return ..()
+*/

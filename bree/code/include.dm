@@ -2,7 +2,12 @@
 #include "sierra_gliding/movable.dm"
 #include "sierra_gliding/movement_handler.dm"
 
-#include "obj/structure/despawn_bed.dm"
-#include "obj/structure/door.dm" // BREE~DOOR
+#include "material/material.dm"
 
+#include "obj/structure/despawn_bed.dm"
+#include "obj/structure/door.dm"
+#include "obj/structure/foundation.dm"
+#include "obj/structure/wall_frame.dm"
+
+#include "turf/wall/wall.dm"
 #include "turf/land.dm"

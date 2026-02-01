@@ -1,31 +1,35 @@
-// BREE~DOOR
-
 /obj/structure/door
-	icon = 'bree/icons/obj/structure/door64.dmi'
+	name = "wooden door"
+	icon = 'bree/icons/obj/structure/doors.dmi'
 	icon_state = "wood"
-	var/icon_base
+	pixel_x = -16
+	var/icon_base = "wood"
 
 	anchored = TRUE
 	opacity = TRUE
 	density = TRUE
 
-	var/open_layer = OPEN_DOOR_LAYER
-	var/closed_layer = CLOSED_DOOR_LAYER
+	var/open_layer
+	var/closed_layer
 
-	var/noise
+	var/noise = 'sound/effects/doorcreaky.ogg'
+
+/obj/structure/door/New(newloc, material_key)
+	material = SSmaterials.get_material_by_name(material_key)
+	..(newloc)
 
 /obj/structure/door/Initialize()
 	. = ..()
 	if (material)
 		color = material.icon_colour
+	if (dir < 3) // north or south
+		open_layer = ABOVE_HUMAN_LAYER
+		closed_layer = ABOVE_HUMAN_LAYER
+	else
+		open_layer = OPEN_DOOR_LAYER
+		closed_layer = CLOSED_DOOR_LAYER
 
-	for(var/direction in GLOB.cardinal)
-		var/turf/T = get_step(src, direction)
-
-		if(istype(T, /turf/simulated/wall))
-			var/turf/simulated/wall/W = T
-			W.update_connections(1)
-			W.update_icon()
+	update_icon()
 
 /obj/structure/door/on_update_icon()
 	. = ..()
@@ -35,18 +39,64 @@
 /obj/structure/door/attack_hand(mob/user)
 	if ((. = ..()))
 		return
-	if(!CanPhysicallyInteract(user))
+	if (!CanPhysicallyInteract(user))
 		return FALSE
 
-	density = !density
-	opacity = density
-	update_icon()
-	playsound(src.loc, noise, 80, 1)
+	if (density)
+		open()
+	else
+		for (var/atom/I in src.loc)
+			if (I.density)
+				if (I != src)
+					user.visible_message(
+						SPAN_NOTICE("\The [user] unsuccessfully attempts to close \the [src]."),
+						SPAN_NOTICE("You tries to close \the [src], but something is preventing from doing so.")
+					)
+					return
+		close()
 
 	return TRUE
 
-/obj/structure/door/yew
-	name = "wooden door"
-	icon_base = "wood"
-	material = /material/wood/yew
-	noise = 'sound/effects/doorcreaky.ogg'
+/obj/structure/door/Bumped(atom/AM)
+	if (density && ismob(AM))
+		open()
+	return
+
+/obj/structure/door/proc/open()
+	density = FALSE
+	opacity = FALSE
+	update_icon()
+	playsound(src.loc, noise, 80, 1)
+
+/obj/structure/door/proc/close()
+	density = TRUE
+	opacity = TRUE
+	update_icon()
+	playsound(src.loc, noise, 80, 1)
+
+
+
+
+
+
+
+/obj/structure/door/oak/New(newloc)
+	..(newloc, MATERIAL_OAK)
+
+/obj/structure/door/beech/New(newloc)
+	..(newloc, MATERIAL_BEECH)
+
+/obj/structure/door/birch/New(newloc)
+	..(newloc, MATERIAL_BIRCH)
+
+/obj/structure/door/maple/New(newloc)
+	..(newloc, MATERIAL_MAPLE)
+
+/obj/structure/door/ash/New(newloc)
+	..(newloc, MATERIAL_ASH)
+
+/obj/structure/door/spruce/New(newloc)
+	..(newloc, MATERIAL_SPRUCE)
+
+/obj/structure/door/pine/New(newloc)
+	..(newloc, MATERIAL_PINE)

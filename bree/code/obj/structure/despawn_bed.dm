@@ -11,7 +11,7 @@
 	if ((. = ..()))
 		START_PROCESSING(SSobj, src)
 		time_entered = world.time
-		to_chat(buckled_mob, SPAN_NOTICE("<b>If you ghost, log out or close your client now, your character will shortly be permanently removed from the round.</b>"))
+		// to_chat(buckled_mob, SPAN_NOTICE("<b>If you ghost, log out or close your client now, your character will shortly be permanently removed from the round.</b>"))
 	return
 
 /obj/structure/bed/despawn_bed/Process()

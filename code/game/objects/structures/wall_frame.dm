@@ -71,6 +71,8 @@
 		return FALSE
 
 
+// BREE~bree\code\turf\wall\wall.dm
+/*
 /obj/structure/wall_frame/use_tool(obj/item/tool, mob/user, list/click_params)
 	// Rods - Place Grille
 	if (istype(tool, /obj/item/stack/material/rods))
@@ -124,7 +126,7 @@
 		return TRUE
 
 	return ..()
-
+*/
 
 /obj/structure/wall_frame/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(air_group || (height==0)) return 1
