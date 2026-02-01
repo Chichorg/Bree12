@@ -51,6 +51,10 @@
 /obj/item/material/knife/kitchen/cleaver,
 /turf/simulated/floor/land,
 /area/bree)
+"hO" = (
+/obj/item/reagent_containers/food/drinks/glass2/wood_mug,
+/turf/simulated/floor/land,
+/area/bree)
 "jS" = (
 /obj/structure/door/pine,
 /turf/simulated/floor/land,
@@ -90,8 +94,8 @@
 /turf/simulated/floor/land,
 /area/bree)
 "ty" = (
-/obj/structure/reagent_dispensers/beerkeg,
-/turf/simulated/floor/wood/yew,
+/obj/structure/reagent_dispensers/barrel/beer,
+/turf/simulated/floor/land,
 /area/bree)
 "wt" = (
 /obj/structure/table/woodentable,
@@ -107,6 +111,14 @@
 /obj/structure/kitchenspike,
 /turf/simulated/floor/land,
 /area/bree)
+"xk" = (
+/obj/structure/reagent_dispensers/barrel/ale,
+/turf/simulated/floor/land,
+/area/bree)
+"yx" = (
+/obj/structure/reagent_dispensers/barrel/wine,
+/turf/simulated/floor/land,
+/area/bree)
 "Cd" = (
 /obj/structure/table/woodentable,
 /obj/item/reagent_containers/cooking_container/oven,
@@ -117,6 +129,10 @@
 /turf/simulated/floor/land,
 /area/bree)
 "ER" = (
+/turf/simulated/floor/land,
+/area/bree)
+"Fa" = (
+/obj/structure/reagent_dispensers/barrel/mead,
 /turf/simulated/floor/land,
 /area/bree)
 "II" = (
@@ -786,8 +802,8 @@ So
 So
 YY
 eY
-ER
-ER
+xk
+hO
 ER
 ER
 II
@@ -838,8 +854,8 @@ OQ
 OQ
 YY
 eY
-ER
-ER
+ty
+hO
 ER
 ER
 ER
@@ -890,8 +906,8 @@ YY
 YY
 YY
 eY
-ER
-ER
+Fa
+hO
 ER
 ER
 eO
@@ -938,12 +954,12 @@ ER
 eY
 YY
 Vc
-ty
+YY
 YY
 YY
 eY
-ER
-ER
+yx
+hO
 ER
 Qa
 Qa
