@@ -128,6 +128,13 @@
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/land,
 /area/bree)
+"EF" = (
+/obj/item/torch,
+/obj/item/torch,
+/obj/item/torch,
+/obj/item/torch,
+/turf/simulated/floor/land,
+/area/bree)
 "ER" = (
 /turf/simulated/floor/land,
 /area/bree)
@@ -859,7 +866,7 @@ hO
 ER
 ER
 ER
-ER
+EF
 ER
 ER
 ER

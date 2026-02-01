@@ -4,6 +4,7 @@
 
 #include "material/material.dm"
 
+#include "obj\item\light.dm"
 #include "obj\item\reagent_containers.dm"
 
 #include "obj/structure/despawn_bed.dm"
