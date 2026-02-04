@@ -14,3 +14,12 @@ code/modules/mob/new_player/login.dm
 
 code/modules/client/client_procs.dm
     /client/New(TopicData)
+
+
+BREE~DISABLE~SCIFI~AWAYMAPS
+
+code\modules\submaps\submap_archetype.dm
+	/singleton/submap_archetype/derelict
+	/singleton/submap_archetype/abandoned_ship
+
+maps\_maps.dm

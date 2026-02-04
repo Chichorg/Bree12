@@ -9,8 +9,12 @@
 	)
 
 // Generic ships to populate the list.
+// BREE~DISABLE~SCIFI~AWAYMAPS~REMOVE
+/*
 /singleton/submap_archetype/derelict
 	descriptor = "drifting wreck"
 
 /singleton/submap_archetype/abandoned_ship
 	descriptor = "abandoned ship"
+*/
+// BREE~DISABLE~SCIFI~AWAYMAPS~REMOVEEND
