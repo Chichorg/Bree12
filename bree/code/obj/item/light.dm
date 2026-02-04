@@ -22,7 +22,7 @@
 	. = ..()
 
 	update_torch_light()
-	fuel = rand(min_fuel, max_fuel)
+	fuel = rand(min_fuel, max_fuel) / SSobj.wait
 	update_icon()
 
 /obj/item/torch/Destroy()
@@ -64,15 +64,15 @@
 
 	playsound(get_turf(src), activation_sound, 75, 1)
 
-	if (fuel > 300)
+	if (fuel > 300 / SSobj.wait)
 		lit = TRUE
 		update_damage()
 		update_torch_light()
 		update_icon()
 		START_PROCESSING(SSobj, src)
-		src.visible_message(SPAN_WARNING("/The [src] flares up."))
+		src.visible_message(SPAN_WARNING("\The [src] flares up."))
 	else
-		src.visible_message(SPAN_WARNING("/The [src] burns out completely."))
+		src.visible_message(SPAN_WARNING("\The [src] burns out completely."))
 		new /obj/decal/cleanable/ash(get_turf(src))
 		qdel(src)
 
