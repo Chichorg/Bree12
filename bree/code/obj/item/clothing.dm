@@ -12,24 +12,24 @@
 
 /obj/item/clothing/under/bree/everyday
 	name = "everyday wear"
-	desc = ""
+	desc = "Plain linen and wool, made for long days and hard work."
 	icon_state = "everyday"
 
 /obj/item/clothing/under/bree/toga
 	name = "toga"
-	desc = ""
+	desc = "A wrapped woolen drape with a simple clasp at the shoulder."
 	icon_state = "toga"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS
 
 /obj/item/clothing/under/bree/pants
 	name = "pants"
-	desc = ""
+	desc = "Sturdy cloth trousers with a drawstring waist."
 	icon_state = "pants"
 	body_parts_covered = LOWER_TORSO|LEGS
 
 /obj/item/clothing/under/bree/worn_pants
 	name = "pants"
-	desc = ""
+	desc = "Faded, patched trousers that have seen too many winters."
 	icon_state = "worn_pants"
 	body_parts_covered = LOWER_TORSO|LEGS
 
@@ -48,30 +48,30 @@
 
 /obj/item/clothing/suit/bree/cape
 	name = "cape"
-	desc = ""
+	desc = "A short wool cape fastened at the neck to turn away the cold."
 	icon_state = "cape"
 	body_parts_covered = UPPER_TORSO
 
 /obj/item/clothing/suit/bree/cloak
 	name = "cloak"
-	desc = ""
+	desc = "A full-length cloak with a hood for travel and foul weather."
 	icon_state = "cloak"
 
 /obj/item/clothing/suit/bree/shawl
 	name = "shawl"
-	desc = ""
+	desc = "A woven shawl, light but warm, draped across the shoulders."
 	icon_state = "shawl"
 	body_parts_covered = UPPER_TORSO
 
 /obj/item/clothing/suit/bree/small_cloak
 	name = "cloak"
-	desc = ""
+	desc = "A shorter cloak for town wear, easy to move in."
 	icon_state = "small_cloak"
 	body_parts_covered = UPPER_TORSO
 
 /obj/item/clothing/suit/bree/robe
 	name = "robe"
-	desc = ""
+	desc = "A long, belted robe with wide sleeves and a heavy hem."
 	icon_state = "robe"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 

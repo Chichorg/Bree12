@@ -3,8 +3,8 @@
 	desc = ""
 	w_class = ITEM_SIZE_NORMAL
 	icon = 'bree/icons/obj/item/light.dmi'
-	icon_state = "flare"
-	item_state = "flare"
+	icon_state = "torch"
+	item_state = "torch"
 	var/lit = FALSE
 	var/fuel = 0
 	var/min_fuel = 4 MINUTES
