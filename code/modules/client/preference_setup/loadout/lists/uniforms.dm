@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/uniform
 	sort_category = "Uniforms and Casual Dress"
 	slot = slot_w_uniform
@@ -220,3 +222,4 @@
 /datum/gear/uniform/pj_blue
 	display_name = "blue pajamas"
 	path = /obj/item/clothing/under/bluepyjamas
+*/

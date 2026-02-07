@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/gloves
 	cost = 2
 	slot = slot_gloves
@@ -69,3 +71,4 @@
 	display_name = "gloves, work"
 	path = /obj/item/clothing/gloves/thick
 	cost = 3
+*/

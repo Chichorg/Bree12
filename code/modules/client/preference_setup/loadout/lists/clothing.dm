@@ -1,4 +1,5 @@
-
+// BREE~LOADOUT
+/*
 /datum/gear/clothing
 	sort_category = "Clothing Pieces"
 	category = /datum/gear/clothing
@@ -79,3 +80,4 @@
 	display_name = "tangzhuang jacket, colour select"
 	path = /obj/item/clothing/accessory/tangzhuang
 	flags = GEAR_HAS_COLOR_SELECTION
+*/

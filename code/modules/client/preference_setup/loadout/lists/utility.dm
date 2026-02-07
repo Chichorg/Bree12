@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 // "Useful" items - I'm guessing things that might be used at work?
 /datum/gear/utility
 	sort_category = "Utility"
@@ -155,3 +157,4 @@ Instruments
 	display_name = "stellascope"
 	path = /obj/item/holosign_creator/stellascope
 	cost = 4
+*/

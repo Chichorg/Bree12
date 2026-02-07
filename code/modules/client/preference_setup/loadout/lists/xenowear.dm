@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 // Alien clothing.
 
 // Unathi clothing
@@ -204,3 +206,4 @@
 	path = /obj/item/clothing/mask/gas/vox
 	sort_category = "Xenowear"
 	whitelisted = list(SPECIES_VOX)
+*/

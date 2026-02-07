@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/cane
 	display_name = "cane"
 	path = /obj/item
@@ -364,3 +366,4 @@
 	path = /obj/item/cup_of_knowledge
 	cost = 2
 	whitelisted = list(SPECIES_UNATHI, SPECIES_YEOSA)
+*/

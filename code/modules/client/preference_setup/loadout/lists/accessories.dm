@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/accessory
 	sort_category = "Accessories"
 	category = /datum/gear/accessory
@@ -243,3 +245,4 @@
 	display_name = "kirpan gatra"
 	description = "A traditional sheath for a kirpan."
 	path = /obj/item/clothing/accessory/storage/holster/kirpan
+*/

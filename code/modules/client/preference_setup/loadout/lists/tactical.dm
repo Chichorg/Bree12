@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/tactical
 	sort_category = "Tactical Equipment"
 	category = /datum/gear/tactical
@@ -31,3 +33,4 @@
 	display_name = "tacticool turtleneck"
 	path = /obj/item/clothing/under/syndicate/tacticool
 	slot = slot_w_uniform
+*/

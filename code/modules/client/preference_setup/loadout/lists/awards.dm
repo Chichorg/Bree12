@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/award
 	sort_category = "Awards"
 	category = /datum/gear/award
@@ -19,3 +21,4 @@
 	display_name = "corporate award, command medal"
 	description = "A gold medal awarded to employees for service as the Captain of a corporate facility, station, or vessel."
 	path = /obj/item/storage/medalbox/corp_command
+*/

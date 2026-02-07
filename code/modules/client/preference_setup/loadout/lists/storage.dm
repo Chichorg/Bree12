@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/storage
 	sort_category = "Storage Accessories"
 	category = /datum/gear/storage
@@ -73,3 +75,4 @@
 	display_name = "wallet, polychromic"
 	path = /obj/item/storage/wallet/poly
 	cost = 2
+*/

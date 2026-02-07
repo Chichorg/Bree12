@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/augment
 	sort_category = "Augments"
 	category = /datum/gear/augment
@@ -80,3 +82,4 @@
 	options["integrated filth HUD"] = /obj/item/organ/internal/augment/active/hud/janitor
 	options["integrated sciHUD"] = /obj/item/organ/internal/augment/active/hud/science
 	gear_tweaks += new /datum/gear_tweak/path (options)
+*/

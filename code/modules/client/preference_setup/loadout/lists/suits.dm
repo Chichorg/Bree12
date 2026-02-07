@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/suit
 	slot = slot_wear_suit
 	sort_category = "Suits and Overwear"
@@ -182,3 +184,4 @@
 /datum/gear/suit/zipper
 	display_name = "sweater, zip up"
 	path = /obj/item/clothing/suit/storage/toggle/zipper
+*/

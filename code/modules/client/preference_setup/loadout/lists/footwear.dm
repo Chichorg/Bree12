@@ -1,4 +1,5 @@
-
+// BREE~LOADOUT
+/*
 /datum/gear/shoes
 	sort_category = "Shoes and Footwear"
 	slot = slot_shoes
@@ -74,3 +75,4 @@
 /datum/gear/shoes/slippers
 	display_name = "bunny slippers"
 	path = /obj/item/clothing/shoes/slippers
+*/

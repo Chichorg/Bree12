@@ -2,10 +2,13 @@
 #include "sierra_gliding/movable.dm"
 #include "sierra_gliding/movement_handler.dm"
 
+#include "datum/loadout.dm"
+
 #include "material/material.dm"
 
-#include "obj\item\light.dm"
-#include "obj\item\reagent_containers.dm"
+#include "obj/item/clothing.dm"
+#include "obj/item/light.dm"
+#include "obj/item/reagent_containers.dm"
 
 #include "obj/structure/despawn_bed.dm"
 #include "obj/structure/door.dm"

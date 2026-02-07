@@ -1,3 +1,5 @@
+// BREE~LOADOUT
+/*
 /datum/gear/eyes
 	sort_category = "Glasses and Eyewear"
 	category = /datum/gear/eyes
@@ -201,3 +203,4 @@
 	options["Replica Ballistic Goggles"] = /obj/item/clothing/glasses/ballistic/fake
 	options["Replica Ballistic Goggles, corrective"] = /obj/item/clothing/glasses/ballistic/fake/prescription
 	gear_tweaks += new /datum/gear_tweak/path (options)
+*/
